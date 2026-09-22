@@ -19,7 +19,7 @@
 
 .contact__grid {
   display: grid;
-  grid-template-columns: 1fr 1.05fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
   gap: 42px;
   align-items: start;
 }
@@ -175,6 +175,14 @@ a.contact__card:hover {
 }
 
 @media (max-width: 520px) {
+  .contact__hero {
+    padding: 56px 0 44px;
+  }
+
+  .contact__hero h1 {
+    font-size: 2.15rem;
+  }
+
   .contact__card {
     align-items: flex-start;
     padding: 16px;

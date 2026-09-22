@@ -33,6 +33,7 @@
   font-size: 1.5rem;
   letter-spacing: 0.1em;
   color: #fff;
+  overflow-wrap: anywhere;
 }
 
 .nav__sub {
@@ -182,5 +183,26 @@
   .nav__toggle {
     display: grid;
     place-items: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav__inner {
+    height: 64px;
+  }
+
+  .nav__logo {
+    max-width: 210px;
+    font-size: 1.18rem;
+    letter-spacing: 0.06em;
+  }
+
+  .nav__sub {
+    font-size: 0.52rem;
+    letter-spacing: 0.22em;
+  }
+
+  .nav__actions {
+    gap: 6px;
   }
 }

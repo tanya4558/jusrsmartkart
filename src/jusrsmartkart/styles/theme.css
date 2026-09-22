@@ -76,7 +76,7 @@ h3 {
   width: 100%;
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 22px;
+  padding: 0 clamp(16px, 3vw, 32px);
 }
 
 .section {
@@ -186,5 +186,11 @@ h3 {
 @media (max-width: 720px) {
   .section {
     padding: 60px 0;
+  }
+
+  .btn {
+    max-width: 100%;
+    white-space: normal;
+    text-align: center;
   }
 }
