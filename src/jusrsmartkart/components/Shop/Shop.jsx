@@ -7,7 +7,7 @@ export default function Shop() {
     <div className="shop">
       <header className="shop__hero">
         <div className="container">
-          <span className="eyebrow">Shop Jusrsmartkart</span>
+          <span className="eyebrow">Shop Justsmartkart</span>
           <h1>Make space for better days</h1>
           <p>Thoughtful organizers for wardrobes, shelves and everyday routines.</p>
         </div>

@@ -66,7 +66,7 @@ export default function Home() {
 
           <div className="hero__media">
             <div className="hero__glow" />
-            <img src="/ProductImage/IMG_3460.jpeg" alt="Jusrsmartkart black fabric storage boxes stacked on a desk" />
+            <img src="/ProductImage/IMG_3460.jpeg" alt="Justsmartkart black fabric storage boxes stacked on a desk" />
             <div className="hero__chip">
               <FaLink />
               <div>
@@ -100,13 +100,13 @@ export default function Home() {
       <section className="section features">
         <div className="container features__inner">
           <div className="features__media">
-            <img src="/ProductImage/IMG_3461.jpeg" alt="Jusrsmartkart black storage boxes arranged on a shelf" />
+            <img src="/ProductImage/IMG_3461.jpeg" alt="Justsmartkart black storage boxes arranged on a shelf" />
           </div>
           <div className="features__copy">
             <span className="eyebrow">Why you'll love it</span>
             <h2>Every detail, considered</h2>
             <p className="features__lead">
-              From the sturdy fabric to the easy-grip handle, Jusrsmartkart is made
+              From the sturdy fabric to the easy-grip handle, Justsmartkart is made
               to make storing effortless and finding things a joy.
             </p>
             <div className="features__grid">

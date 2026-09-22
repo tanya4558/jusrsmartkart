@@ -16,7 +16,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer__grid">
         <div className="footer__brand">
-          <span className="footer__logo">Jusrsmartkart</span>
+          <span className="footer__logo">Justsmartkart</span>
           <p>{BUSINESS.tagline}</p>
           <p className="footer__intro">{BUSINESS.intro}</p>
           <a

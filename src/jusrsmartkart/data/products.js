@@ -1,4 +1,4 @@
-// Product catalogue for Jusrsmartkart home storage organizers
+// Product catalogue for Justsmartkart home storage organizers
 export const formatINR = (value) =>
   new Intl.NumberFormat("en-IN", {
     style: "currency",
@@ -8,8 +8,8 @@ export const formatINR = (value) =>
 
 export const PRODUCTS = [
   {
-    id: "jusrsmartkart-storage-box",
-    name: "Jusrsmartkart Foldable Storage Box",
+    id: "justsmartkart-storage-box",
+    name: "Justsmartkart Foldable Storage Box",
     colorway: "Black with tan trim",
     price: 250,
     mrp: 500,

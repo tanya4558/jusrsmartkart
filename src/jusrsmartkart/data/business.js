@@ -1,6 +1,6 @@
-// Central business / brand information for Jusrsmartkart
+// Central business / brand information for Justsmartkart
 export const BUSINESS = {
-  name: "Jusrsmartkart",
+  name: "Justsmartkart",
   tagline: "Smart organization for everyday living",
   intro:
     "Practical storage solutions that keep your home essentials protected, tidy and easy to find.",
@@ -47,7 +47,7 @@ export const fullAddress = [
 export const whatsappLink = (message) =>
   `https://wa.me/${BUSINESS.phoneIntl}?text=${encodeURIComponent(
     message ||
-      "Hi Jusrsmartkart, I'd like to know more about your storage organizers.",
+      "Hi Justsmartkart, I'd like to know more about your storage organizers.",
   )}`;
 
 export const telLink = `tel:+${BUSINESS.phoneIntl}`;

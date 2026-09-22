@@ -75,7 +75,7 @@ export default function Contact() {
         <div className="contact__side">
           <div className="contact__map">
             <iframe
-              title="Jusrsmartkart location - Olpad, Surat"
+              title="Justsmartkart location - Olpad, Surat"
               src={`https://www.google.com/maps?q=${encodeURIComponent(
                 fullAddress
               )}&output=embed`}
@@ -87,7 +87,7 @@ export default function Contact() {
           <div className="contact__tm">
             <h3>Trademark & ownership</h3>
             <p className="contact__tm-note">
-              Public ownership summary for the Jusrsmartkart business.
+              Public ownership summary for the Justsmartkart business.
             </p>
             <ul>
               <li><span>Brand</span><strong>{trademark.mark}™ ({trademark.type})</strong></li>

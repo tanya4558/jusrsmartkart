@@ -31,7 +31,7 @@ export default function Navbar() {
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="container nav__inner">
         <Link to="/" className="nav__brand" onClick={() => setOpen(false)}>
-          <span className="nav__logo">Jusrsmartkart</span>
+          <span className="nav__logo">Justsmartkart</span>
           <span className="nav__sub">Smart Storage</span>
         </Link>
 
